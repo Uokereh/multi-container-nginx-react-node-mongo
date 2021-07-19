@@ -25,7 +25,6 @@
       {
         "name": "backend",
         "image": "uokereh/dkr-multicontainer-app-backend",
-        // "image": "lukondefmwila/dkr-multicontainer-app-backend",
         "hostname": "backend",
         "essential": false,
         "memory": 300
