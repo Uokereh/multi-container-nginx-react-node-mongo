@@ -13,8 +13,6 @@ phases:
       # - ./snyk config set api="$SNYK_AUTH_TOKEN"
       # Build Docker image for testing
       - echo Build client and backend docker images for testing...
-      - docker build -t uokereh/react-test -f ./client/Dockerfile.dev ./client
-      - docker build -t uokereh/nodejs-test -f ./backend/Dockerfile.dev ./backend
       # - docker build -t lukondefmwila/react-test -f ./client/Dockerfile.dev ./client
       # - docker build -t lukondefmwila/nodejs-test -f ./backend/Dockerfile.dev ./backend
   build:
