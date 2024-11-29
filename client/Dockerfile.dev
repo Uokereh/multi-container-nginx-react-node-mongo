@@ -1,5 +1,5 @@
 # Specify a base image
-FROM node:12.13.0-alpine AS alpine
+FROM node:erbium-alpine3.11 AS alpine
 
 WORKDIR /app
 
